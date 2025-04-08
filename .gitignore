@@ -56,11 +56,8 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-
-
 # PyPI configuration file
 .pypirc
-
 
 # pyTest coverage file
 .coverage
