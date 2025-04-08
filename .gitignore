@@ -66,3 +66,7 @@ dmypy.json
 .coverage
 .coverage/
 .coverage
+
+# vscode folders and files
+.vscode
+.vscode/
