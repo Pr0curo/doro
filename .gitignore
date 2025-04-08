@@ -60,3 +60,9 @@ dmypy.json
 
 # PyPI configuration file
 .pypirc
+
+
+# pyTest coverage file
+.coverage
+.coverage/
+.coverage
