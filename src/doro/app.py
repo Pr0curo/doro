@@ -17,8 +17,12 @@ def index():
 @app.get("/incr")
 def increase_page_views():
     """increases the page views"""
+
+    # TODO: Fix this to use redis again, currently it is "turned off"
     try:
-        page_views = redis().incr("page_views")
+        # page_views = redis().incr("page_views")
+        page_views = 1000
+        print("sowas...")
     except RedisError:
         app.logger.exception("Redis error")
         return "Sorry, something went wrong \N{pensive face}", 500
