@@ -18,3 +18,8 @@ personal tutorial project following roughly https://realpython.com/docker-contin
         C:\prog\doro> git diff
 
 if everything is fine, commit the change.
+
+# starting dev mode
+
+        C:\prog\doro> poetry run flask --app src/doro/app run
+        
